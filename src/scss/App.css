@@ -51,6 +51,11 @@ li {
       .card .content .info p {
         position: relative;
         top: 3px; }
+      .card .content .info .data {
+        position: relative;
+        left: 200px;
+        top: -50px;
+        font-size: 13px; }
 
 .UsersI .Rectangle2 {
   position: absolute;

@@ -29,6 +29,103 @@ li {
   list-style: none; }
 
 /*Components*/
+.card {
+  width: 367px;
+  height: 87px;
+  border-radius: 25px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 0 0 15px; }
+  .card .content {
+    display: flex;
+    margin: 15px;
+    gap: 15px; }
+    .card .content img {
+      margin-top: 10px;
+      width: 70px;
+      height: 70px; }
+    .card .content .info {
+      position: relative;
+      top: 15px;
+      color: white; }
+      .card .content .info p {
+        position: relative;
+        top: 3px; }
+      .card .content .info .data {
+        position: relative;
+        left: 200px;
+        top: -50px;
+        font-size: 13px; }
+
+.UsersI .Rectangle2 {
+  position: absolute;
+  top: 0;
+  left: 404px;
+  width: 694px;
+  height: 81px;
+  border-radius: 0 50px 0 0;
+  background: rgba(178, 178, 178, 0.63);
+  backdrop-filter: blur(25px); }
+  .UsersI .Rectangle2 .infosUsers {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between; }
+    .UsersI .Rectangle2 .infosUsers img {
+      width: 50px;
+      height: 50px; }
+    .UsersI .Rectangle2 .infosUsers .text {
+      position: absolute;
+      left: 75px;
+      color: white; }
+    .UsersI .Rectangle2 .infosUsers .icon {
+      margin: 5px 15px 0 0; }
+      .UsersI .Rectangle2 .infosUsers .icon img {
+        width: 35px;
+        height: 35px; }
+.UsersI .Rectangle3 {
+  position: absolute;
+  bottom: 0;
+  left: 404px;
+  width: 694px;
+  height: 81px;
+  border-radius: 0 0 50px 0;
+  background: rgba(178, 178, 178, 0.63);
+  backdrop-filter: blur(25px); }
+  .UsersI .Rectangle3 .InfosWriteMessage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px; }
+    .UsersI .Rectangle3 .InfosWriteMessage .MicIcons {
+      margin-right: -25px;
+      width: 520px;
+      height: 38px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+      background: rgba(126, 136, 109, 0.32) url("../../../img/Icons/Messages/Mic.png") no-repeat right;
+      background-size: 30px 30px; }
+      .UsersI .Rectangle3 .InfosWriteMessage .MicIcons::placeholder {
+        outline: none;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 10px;
+        top: 2px; }
+      .UsersI .Rectangle3 .InfosWriteMessage .MicIcons:focus {
+        position: relative;
+        left: 10px;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 25px; }
+    .UsersI .Rectangle3 .InfosWriteMessage img {
+      position: relative;
+      left: 15px;
+      width: 35px;
+      height: 35px; }
+    .UsersI .Rectangle3 .InfosWriteMessage .Send img {
+      margin-right: 35px; }
+
 /*Views*/
 .Main {
   position: absolute;
@@ -37,8 +134,132 @@ li {
   transform: translate(-50%, -50%);
   width: 1098px;
   height: 649px;
-  border-radius: 150px;
+  border-radius: 50px;
   background: rgba(178, 178, 178, 0.72);
   backdrop-filter: blur(25px); }
+  .Main .Rectangle {
+    width: 404px;
+    height: 649px;
+    background: rgba(126, 136, 109, 0.32);
+    backdrop-filter: blur(25px);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; }
+    .Main .Rectangle .profile {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px; }
+      .Main .Rectangle .profile .avatar img {
+        width: 56px;
+        height: 56px; }
+      .Main .Rectangle .profile .Icons {
+        display: flex;
+        gap: 5px;
+        margin-top: 10px; }
+        .Main .Rectangle .profile .Icons img {
+          width: 35px;
+          height: 35px; }
+    .Main .Rectangle .separator {
+      position: absolute;
+      top: 80px;
+      left: 10px;
+      width: 387px;
+      height: 2px;
+      border-radius: 50px;
+      background: rgba(126, 136, 109, 0.35); }
+    .Main .Rectangle .left .Search {
+      display: flex;
+      justify-content: space-between; }
+      .Main .Rectangle .left .Search .SearchImages {
+        margin-left: 15px;
+        width: 327px;
+        height: 32px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+        background: rgba(126, 136, 109, 0.32) url("../../img/Icons/Search.png") no-repeat right;
+        background-size: 20px 20px; }
+        .Main .Rectangle .left .Search .SearchImages::placeholder {
+          position: relative;
+          left: 5px;
+          top: 3px;
+          color: white;
+          font-size: 18px; }
+        .Main .Rectangle .left .Search .SearchImages:focus {
+          outline: none;
+          border: none;
+          color: white; }
+      .Main .Rectangle .left .Search .Filter {
+        margin-right: 15px;
+        margin-top: -2px;
+        width: 30px;
+        height: 30px; }
+  .Main .UsersI .Rectangle2 {
+    position: absolute;
+    top: 0;
+    left: 404px;
+    width: 694px;
+    height: 81px;
+    border-radius: 0 50px 0 0;
+    background: rgba(178, 178, 178, 0.63);
+    backdrop-filter: blur(25px); }
+    .Main .UsersI .Rectangle2 .infosUsers {
+      display: flex;
+      margin: 15px;
+      justify-content: space-between; }
+      .Main .UsersI .Rectangle2 .infosUsers img {
+        width: 50px;
+        height: 50px; }
+      .Main .UsersI .Rectangle2 .infosUsers .text {
+        position: absolute;
+        left: 75px;
+        color: white; }
+      .Main .UsersI .Rectangle2 .infosUsers .icon {
+        margin: 5px 15px 0 0; }
+        .Main .UsersI .Rectangle2 .infosUsers .icon img {
+          width: 35px;
+          height: 35px; }
+  .Main .UsersI .Rectangle3 {
+    position: absolute;
+    bottom: 0;
+    left: 404px;
+    width: 694px;
+    height: 81px;
+    border-radius: 0 0 50px 0;
+    background: rgba(178, 178, 178, 0.63);
+    backdrop-filter: blur(25px); }
+    .Main .UsersI .Rectangle3 .InfosWriteMessage {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px; }
+      .Main .UsersI .Rectangle3 .InfosWriteMessage .MicIcons {
+        margin-right: -25px;
+        width: 520px;
+        height: 38px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+        background: rgba(126, 136, 109, 0.32) url("../../../img/Icons/Messages/Mic.png") no-repeat right;
+        background-size: 30px 30px; }
+        .Main .UsersI .Rectangle3 .InfosWriteMessage .MicIcons::placeholder {
+          outline: none;
+          color: white;
+          font-size: 20px;
+          position: relative;
+          left: 10px;
+          top: 2px; }
+        .Main .UsersI .Rectangle3 .InfosWriteMessage .MicIcons:focus {
+          position: relative;
+          left: 10px;
+          outline: none;
+          border: none;
+          color: white;
+          font-size: 25px; }
+      .Main .UsersI .Rectangle3 .InfosWriteMessage img {
+        position: relative;
+        left: 15px;
+        width: 35px;
+        height: 35px; }
+      .Main .UsersI .Rectangle3 .InfosWriteMessage .Send img {
+        margin-right: 35px; }
 
 /*# sourceMappingURL=style.css.map */

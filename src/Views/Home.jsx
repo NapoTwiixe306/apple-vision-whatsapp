@@ -41,26 +41,31 @@ const Home = () => {
                     <div className="Contact">
                         <Card
                             alt="Images 2"
+                            date="12/05/23"
                             title="(310) 185-5245"
                             description="Hello Bro, how are you today..."
                         />
                         <Card
                             alt="Images 2"
+                            date="12/05/23"
                             title="(310) 185-5245"
                             description="Hello Bro, how are you today..."
                         />
                         <Card
                             alt="Images 2"
+                            date="12/05/23"
                             title="(310) 185-5245"
                             description="Hello Bro, how are you today..."
                         />
                         <Card
                             alt="Images 2"
+                            date="12/05/23"
                             title="(310) 185-5245"
                             description="Hello Bro, how are you today..."
                         />
                         <Card
                             alt="Images 2"
+                            date="12/05/23"
                             title="(310) 185-5245"
                             description="Hello Bro, how are you today..."
                         />
