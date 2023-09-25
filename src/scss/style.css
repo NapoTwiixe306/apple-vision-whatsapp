@@ -1,3 +1,10 @@
+body {
+  background-image: url("../img/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
 /*Base*/
 * {
   padding: 0;
@@ -23,7 +30,15 @@ li {
 
 /*Components*/
 /*Views*/
-h1 {
-  color: red; }
+.Main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1098px;
+  height: 649px;
+  border-radius: 150px;
+  background: rgba(178, 178, 178, 0.72);
+  backdrop-filter: blur(25px); }
 
 /*# sourceMappingURL=style.css.map */

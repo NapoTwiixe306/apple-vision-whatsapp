@@ -1,3 +1,11 @@
+body{
+  background-image: url("../img/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 /*Base*/
 @import "./Base/Mixins.scss";
 @import "./Base/Reset.scss";
@@ -5,8 +13,10 @@
 
 /*Components*/
 @import "./Views/Components/Widget/Navbar.scss";
+@import "./Views/Props/Card";
+@import './Views/Components/Messages.scss';
 
 /*Views*/
-@import "./Views//Home.scss";
+@import "./Views/Home.scss";
 @import './Views/Components/ProfileSettings.scss';
 @import './Views/Components/Radios.scss';

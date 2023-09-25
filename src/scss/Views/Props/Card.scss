@@ -1,0 +1,27 @@
+.card{
+  width: 367px;
+  height: 87px;
+  border-radius: 25px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 0 0 15px;
+ .content{
+   display: flex;
+   margin: 15px;
+   gap: 15px;
+   img{
+     margin-top: 10px;
+     width: 70px;
+     height: 70px;
+   }
+   .info{
+     position: relative;
+     top: 15px;
+     color: white;
+      p{
+        position: relative;
+        top: 3px;
+      }
+   }
+ }
+}

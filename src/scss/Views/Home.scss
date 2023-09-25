@@ -1,3 +1,85 @@
-h1{
-    color: red;
+@import '../Base/Mixins';
+.Main{
+    @include ForceCenter();
+    width: 1098px;
+    height: 649px;
+    //border: 2px solid red;
+    border-radius: 50px;
+    background: rgba(178, 178, 178, 0.72);
+    backdrop-filter: blur(25px);
+
+    .Rectangle {
+        width: 404px;
+        height: 649px;
+        background: rgba(126, 136, 109, 0.32);
+        backdrop-filter: blur(25px);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        .profile{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            .avatar{
+                img{
+                    width: 56px;
+                    height: 56px;
+                }
+            }
+            .Icons{
+                display: flex;
+                gap: 5px;
+                margin-top: 10px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+        .separator {
+            position: absolute;
+            top: 80px;
+            left: 10px;
+            width: 387px;
+            height: 2px;
+            border-radius: 50px;
+            background: rgba(126, 136, 109, 0.35);
+        }
+        .left{
+            .Search{
+                display: flex;
+                justify-content: space-between;
+                .SearchImages{
+                    margin-left: 15px;
+                    width: 327px;
+                    height: 32px;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+                    background: rgba(126, 136, 109, 0.32)
+                        url("../../img/Icons/Search.png") no-repeat right;
+                    background-size: 20px 20px;
+                    &::placeholder{
+                        position: relative;
+                        left: 5px;
+                        top: 3px;
+                        color: white;
+                        font-size: 18px;
+                    }
+                    &:focus {
+                        outline: none;
+                        border: none;
+                        color: white;
+                    }
+                }
+                .Filter{
+                    margin-right: 15px;
+                    margin-top: -2px;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    @import './Components/Messages';
 }
+
