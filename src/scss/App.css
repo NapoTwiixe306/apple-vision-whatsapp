@@ -86,6 +86,8 @@ li {
   border-radius: 0 0 50px 0;
   background: rgba(178, 178, 178, 0.63);
   backdrop-filter: blur(25px); }
+  .UsersI .Rectangle3 .InfosWriteMessage {
+    display: flex; }
 
 /*Views*/
 .Main {
@@ -188,5 +190,7 @@ li {
     border-radius: 0 0 50px 0;
     background: rgba(178, 178, 178, 0.63);
     backdrop-filter: blur(25px); }
+    .Main .UsersI .Rectangle3 .InfosWriteMessage {
+      display: flex; }
 
 /*# sourceMappingURL=App.css.map */

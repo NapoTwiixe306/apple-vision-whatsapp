@@ -23,19 +23,21 @@ const Messages = () => {
                     </div>
                 </div>
                 <div className="Rectangle3">
-                    <div className="KeyIcons">
-                        <img src={Add} alt=""/>
-                        <img src={Emoji} alt=""/>
-                    </div>
-                    <div className="InputSearch">
-                        <input
-                            type="search"
-                            placeholder="Write your message..."
-                            className="MicIcons"
-                        />
-                    </div>
-                    <div className="Send">
-                        <img src={Send} alt=""/>
+                    <div className="InfosWriteMessage">
+                        <div className="KeyIcons">
+                            <img src={Add} alt=""/>
+                            <img src={Emoji} alt=""/>
+                        </div>
+                        <div className="InputSearch">
+                            <input
+                                type="search"
+                                placeholder="Write your message..."
+                                className="MicIcons"
+                            />
+                        </div>
+                        <div className="Send">
+                            <img src={Send} alt=""/>
+                        </div>
                     </div>
                 </div>
             </div>
