@@ -4,7 +4,7 @@ import Search from '../../img/Icons/Search.png'
 import Settings from '../../img/Icons/Settings.png'
 import Add from '../../img/Icons/Messages/AddFiles.png'
 import Emoji from '../../img/Icons/Messages/Emoji.png'
-import Send from '../../img/Icons/Messages/Mic.png'
+import Send from '../../img/Icons/Messages/Send.png'
 const Messages = () => {
     return (
         <>

@@ -43,6 +43,47 @@
 
     .InfosWriteMessage{
       display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      .MicIcons{
+        margin-right: -25px;
+        width: 520px;
+        height: 38px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+        background: rgba(126, 136, 109, 0.32)
+        url("../../../img/Icons/Messages/Mic.png") no-repeat right;
+        background-size: 30px 30px;
+        &::placeholder{
+          outline: none;
+          color: white;
+          font-size: 20px;
+          position: relative;
+          left: 10px;
+          top: 2px;
+        }
+        &:focus {
+
+          position: relative;
+          left: 10px;
+          outline: none;
+          border: none;
+          color: white;
+          font-size: 25px;
+        }
+      }
+      img{
+        position: relative;
+        left: 15px;
+        width: 35px;
+        height: 35px;
+      }
+      .Send{
+        img{
+          margin-right: 35px;
+        }
+      }
     }
   }
 }
