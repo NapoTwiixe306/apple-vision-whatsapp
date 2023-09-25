@@ -52,7 +52,7 @@ li {
         position: relative;
         top: 3px; }
 
-.Rectangle2 {
+.UsersI .Rectangle2 {
   position: absolute;
   top: 0;
   left: 404px;
@@ -61,22 +61,31 @@ li {
   border-radius: 0 50px 0 0;
   background: rgba(178, 178, 178, 0.63);
   backdrop-filter: blur(25px); }
-  .Rectangle2 .infosUsers {
+  .UsersI .Rectangle2 .infosUsers {
     display: flex;
     margin: 15px;
     justify-content: space-between; }
-    .Rectangle2 .infosUsers img {
+    .UsersI .Rectangle2 .infosUsers img {
       width: 50px;
       height: 50px; }
-    .Rectangle2 .infosUsers .text {
+    .UsersI .Rectangle2 .infosUsers .text {
       position: absolute;
       left: 75px;
       color: white; }
-    .Rectangle2 .infosUsers .icon {
+    .UsersI .Rectangle2 .infosUsers .icon {
       margin: 5px 15px 0 0; }
-      .Rectangle2 .infosUsers .icon img {
+      .UsersI .Rectangle2 .infosUsers .icon img {
         width: 35px;
         height: 35px; }
+.UsersI .Rectangle3 {
+  position: absolute;
+  bottom: 0;
+  left: 404px;
+  width: 694px;
+  height: 81px;
+  border-radius: 0 0 50px 0;
+  background: rgba(178, 178, 178, 0.63);
+  backdrop-filter: blur(25px); }
 
 /*Views*/
 .Main {
@@ -145,7 +154,7 @@ li {
         margin-top: -2px;
         width: 30px;
         height: 30px; }
-  .Main .Rectangle2 {
+  .Main .UsersI .Rectangle2 {
     position: absolute;
     top: 0;
     left: 404px;
@@ -154,21 +163,30 @@ li {
     border-radius: 0 50px 0 0;
     background: rgba(178, 178, 178, 0.63);
     backdrop-filter: blur(25px); }
-    .Main .Rectangle2 .infosUsers {
+    .Main .UsersI .Rectangle2 .infosUsers {
       display: flex;
       margin: 15px;
       justify-content: space-between; }
-      .Main .Rectangle2 .infosUsers img {
+      .Main .UsersI .Rectangle2 .infosUsers img {
         width: 50px;
         height: 50px; }
-      .Main .Rectangle2 .infosUsers .text {
+      .Main .UsersI .Rectangle2 .infosUsers .text {
         position: absolute;
         left: 75px;
         color: white; }
-      .Main .Rectangle2 .infosUsers .icon {
+      .Main .UsersI .Rectangle2 .infosUsers .icon {
         margin: 5px 15px 0 0; }
-        .Main .Rectangle2 .infosUsers .icon img {
+        .Main .UsersI .Rectangle2 .infosUsers .icon img {
           width: 35px;
           height: 35px; }
+  .Main .UsersI .Rectangle3 {
+    position: absolute;
+    bottom: 0;
+    left: 404px;
+    width: 694px;
+    height: 81px;
+    border-radius: 0 0 50px 0;
+    background: rgba(178, 178, 178, 0.63);
+    backdrop-filter: blur(25px); }
 
 /*# sourceMappingURL=App.css.map */
