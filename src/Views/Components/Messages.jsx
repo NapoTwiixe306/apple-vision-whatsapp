@@ -5,6 +5,7 @@ import Settings from '../../img/Icons/Settings.png'
 import Add from '../../img/Icons/Messages/AddFiles.png'
 import Emoji from '../../img/Icons/Messages/Emoji.png'
 import Send from '../../img/Icons/Messages/Send.png'
+import Discussion from "./Discussion";
 const Messages = () => {
     return (
         <>
@@ -22,6 +23,7 @@ const Messages = () => {
                         </div>
                     </div>
                 </div>
+                <Discussion/>
                 <div className="Rectangle3">
                     <div className="InfosWriteMessage">
                         <div className="KeyIcons">

@@ -126,6 +126,83 @@ li {
     .UsersI .Rectangle3 .InfosWriteMessage .Send img {
       margin-right: 35px; }
 
+.Discussion {
+  position: absolute;
+  top: 90px;
+  left: 400px; }
+  .Discussion .MessagesSendReceive, .Discussion .MessagesSendReceive1, .Discussion .MessagesSendReceive2 {
+    width: 304px;
+    height: 49px;
+    margin: 15px 0 150px 25px;
+    border-radius: 50px;
+    background: rgba(126, 136, 109, 0.32);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    gap: 250px; }
+    .Discussion .MessagesSendReceive p, .Discussion .MessagesSendReceive1 p, .Discussion .MessagesSendReceive2 p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 100%;
+      margin-left: 15px; }
+    .Discussion .MessagesSendReceive .date, .Discussion .MessagesSendReceive1 .date, .Discussion .MessagesSendReceive2 .date {
+      position: relative;
+      left: 400px;
+      top: 35px;
+      font-size: 13px; }
+  .Discussion .MessagesSendReceive1 {
+    width: 250px; }
+    .Discussion .MessagesSendReceive1 .date {
+      position: relative;
+      left: 320px; }
+  .Discussion .MessagesSendReceive2 {
+    width: 330px; }
+    .Discussion .MessagesSendReceive2 .date {
+      position: relative;
+      left: 440px; }
+  .Discussion .Receive {
+    width: 304px;
+    height: 49px;
+    border-radius: 50px;
+    background: rgba(178, 178, 178, 0.72);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 110px;
+    right: -300px; }
+    .Discussion .Receive p {
+      position: relative;
+      top: 15px;
+      left: 15px;
+      color: white; }
+    .Discussion .Receive .date {
+      position: relative;
+      left: 260px;
+      top: 10px;
+      font-size: 13px; }
+  .Discussion .Receive1 {
+    width: 304px;
+    height: 49px;
+    border-radius: 50px;
+    background: rgba(178, 178, 178, 0.72);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 300px;
+    right: -300px; }
+    .Discussion .Receive1 p {
+      position: relative;
+      top: 15px;
+      left: 15px;
+      color: white; }
+    .Discussion .Receive1 .date {
+      position: relative;
+      left: 260px;
+      top: 10px;
+      font-size: 13px; }
+
 /*Views*/
 .Main {
   position: absolute;

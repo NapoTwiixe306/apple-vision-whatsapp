@@ -1,0 +1,89 @@
+@import '../../Base/Mixins';
+.Discussion{
+  position: absolute;
+  top: 90px;
+  left: 400px;
+
+  .MessagesSendReceive,.MessagesSendReceive1, .MessagesSendReceive2{
+    width: 304px;
+    height: 49px;
+    margin: 15px 0 150px 25px;
+    border-radius: 50px;
+    background: rgba(126, 136, 109, 0.32);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    gap: 250px;
+    p{
+      @include ForceCenter();
+      color: white;
+      width: 100%;
+      margin-left: 15px;
+    }
+    .date{
+      position: relative;
+      left: 400px;
+      top: 35px;
+      font-size: 13px;
+    }
+  }
+  .MessagesSendReceive1{
+    width: 250px;
+    .date{
+      position: relative;
+      left: 320px;
+    }
+  }
+  .MessagesSendReceive2{
+    width: 330px;
+    .date{
+      position: relative;
+      left: 440px;
+    }
+  }
+  .Receive{
+    width: 304px;
+    height: 49px;
+    border-radius: 50px;
+    background: rgba(178, 178, 178, 0.72);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 110px;
+    right: -300px;
+    p{
+      position: relative;
+      top: 15px;
+      left: 15px;
+      color: white;
+    }
+    .date{
+      position: relative;
+      left: 260px;
+      top: 10px;
+      font-size: 13px;
+    }
+  }
+  .Receive1{
+    width: 304px;
+    height: 49px;
+    border-radius: 50px;
+    background: rgba(178, 178, 178, 0.72);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 300px;
+    right: -300px;
+    p{
+      position: relative;
+      top: 15px;
+      left: 15px;
+      color: white;
+    }
+    .date{
+      position: relative;
+      left: 260px;
+      top: 10px;
+      font-size: 13px;
+    }
+  }
+}

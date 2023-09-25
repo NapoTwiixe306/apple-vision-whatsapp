@@ -8,6 +8,7 @@ import Add from '../img/Icons/Add.png'
 import Settings from '../img/Icons/Settings.png'
 import Filter from '../img/Icons/Filter.png'
 import Messages from "./Components/Messages";
+import Discussion from "./Components/Discussion";
 const Home = () => {
   return (
     <>
