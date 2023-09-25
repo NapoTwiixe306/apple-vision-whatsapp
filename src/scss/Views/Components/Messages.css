@@ -1,0 +1,11 @@
+.Rectangle2 {
+  position: absolute;
+  top: 0;
+  left: 404px;
+  width: 694px;
+  height: 81px;
+  border-radius: 0px 50px 0px 0px;
+  background: rgba(178, 178, 178, 0.63);
+  backdrop-filter: blur(25px); }
+
+/*# sourceMappingURL=Messages.css.map */
