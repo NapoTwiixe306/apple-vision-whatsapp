@@ -1,0 +1,24 @@
+@import '../../../Base/Mixins';
+
+.Nav{
+  width: 323px;
+  height: 53px;
+  border-radius: 50px;
+  background: rgba(178, 178, 178, 0.72);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid white;
+  position: absolute;
+  right: 1050px;
+  bottom: 250px;
+
+  .NavContent{
+    display: flex;
+    @include ForceCenter();
+    gap: 15px;
+    img{
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
