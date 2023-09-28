@@ -50,6 +50,11 @@ li {
     .Nav .NavContent img {
       width: 35px;
       height: 35px; }
+    .Nav .NavContent .fontA {
+      position: relative;
+      top: 3px;
+      color: white;
+      font-size: 20px; }
 
 .card {
   width: 367px;
@@ -360,5 +365,27 @@ li {
         height: 35px; }
       .Main .UsersI .Rectangle3 .InfosWriteMessage .Send img {
         margin-right: 35px; }
+
+.ProfileSettings {
+  width: 281px;
+  height: 649px;
+  border-radius: 50px;
+  background: rgba(178, 178, 178, 0.72);
+  backdrop-filter: blur(50px);
+  border: 2px solid red;
+  position: absolute;
+  top: 328px;
+  left: 350px; }
+
+.Radios {
+  width: 281px;
+  height: 649px;
+  border-radius: 50px;
+  background: rgba(178, 178, 178, 0.72);
+  backdrop-filter: blur(50px);
+  border: 2px solid red;
+  position: absolute;
+  top: 328px;
+  right: 350px; }
 
 /*# sourceMappingURL=style.css.map */

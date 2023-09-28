@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Props/Card'
+
 import Avatar1 from '../img/Avatars/Avatar1.png'
 import Calendar from '../img/Icons/Calendar.png'
 import Status from '../img/Icons/Status.png'
@@ -9,7 +10,10 @@ import Settings from '../img/Icons/Settings.png'
 import Filter from '../img/Icons/Filter.png'
 import Messages from "./Components/Messages";
 import Navbar from "./Components/Widget/Navbar";
+import ProfileSettings from "./Components/ProfileSettings";
+import Radios from "./Components/Radios";
 const Home = () => {
+
   return (
     <>
         <div className="Main">
@@ -76,7 +80,6 @@ const Home = () => {
             <Messages/>
         </div>
         <Navbar/>
-
     </>
   )
 }
