@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url("../img/Background.jpg");
   background-repeat: no-repeat;
@@ -83,6 +84,52 @@ li {
         left: 200px;
         top: -50px;
         font-size: 13px; }
+
+.card2 {
+  width: 252px;
+  height: 43px;
+  border-radius: 15px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  margin: 0 0 0 15px; }
+  .card2 .content {
+    display: flex;
+    margin: 25px; }
+    .card2 .content img {
+      margin-top: 7px;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px; }
+    .card2 .content .info {
+      position: relative;
+      top: 15px;
+      color: white; }
+      .card2 .content .info h2 {
+        position: relative;
+        top: -7px; }
+
+.card3 {
+  width: 253px;
+  height: 51px;
+  border-radius: 15px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  margin: 0 0 0 15px; }
+  .card3 .content {
+    display: flex;
+    margin: 25px; }
+    .card3 .content img {
+      margin-top: 7px;
+      margin-right: 10px;
+      width: 35px;
+      height: 35px; }
+    .card3 .content .info {
+      position: relative;
+      top: 15px;
+      color: white; }
+      .card3 .content .info p {
+        font-size: 15px;
+        font-weight: bold; }
 
 .UsersI .Rectangle2 {
   position: absolute;
@@ -372,10 +419,30 @@ li {
   border-radius: 50px;
   background: rgba(178, 178, 178, 0.72);
   backdrop-filter: blur(50px);
-  border: 2px solid red;
   position: absolute;
   top: 328px;
-  left: 350px; }
+  right: 350px; }
+  .ProfileSettings .ProfileInfos {
+    width: 281px;
+    height: 81px;
+    border-radius: 50px 50px 0 0;
+    background: rgba(178, 178, 178, 0.63); }
+    .ProfileSettings .ProfileInfos .Pinfos {
+      padding: 15px;
+      display: flex;
+      margin: 15px; }
+      .ProfileSettings .ProfileInfos .Pinfos img {
+        margin-top: -5px;
+        width: 50px;
+        height: 50px; }
+      .ProfileSettings .ProfileInfos .Pinfos .Name {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 17px; }
+  .ProfileSettings .OptionCard .Déco {
+    position: absolute;
+    bottom: 20px; }
 
 .Radios {
   width: 281px;
@@ -383,9 +450,29 @@ li {
   border-radius: 50px;
   background: rgba(178, 178, 178, 0.72);
   backdrop-filter: blur(50px);
-  border: 2px solid red;
   position: absolute;
   top: 328px;
-  right: 350px; }
+  left: 350px; }
+  .Radios .ProfileInfos {
+    width: 281px;
+    height: 81px;
+    border-radius: 50px 50px 0 0;
+    background: rgba(178, 178, 178, 0.63); }
+    .Radios .ProfileInfos .Pinfos {
+      padding: 15px;
+      display: flex;
+      margin: 15px; }
+      .Radios .ProfileInfos .Pinfos img {
+        margin-top: -5px;
+        width: 50px;
+        height: 50px; }
+      .Radios .ProfileInfos .Pinfos .Name {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 17px; }
+  .Radios .OptionCard .Déco {
+    position: absolute;
+    bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

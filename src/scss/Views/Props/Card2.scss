@@ -1,0 +1,29 @@
+@import '../../Base/Mixins';
+.card2{
+  width: 252px;
+  height: 43px;
+  border-radius: 15px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  margin: 0 0 0 15px;
+  .content{
+    display: flex;
+    margin: 25px;
+    img{
+      margin-top: 7px;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+    }
+    .info{
+      position: relative;
+      top: 15px;
+      color: white;
+      h2{
+       position: relative;
+        top: -7px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../Base/Mixins';
+.card3{
+  width: 253px;
+  height: 51px;
+  border-radius: 15px;
+  background: rgba(126, 136, 109, 0.32);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  margin: 0 0 0 15px;
+  .content{
+    display: flex;
+    margin: 25px;
+    img{
+      margin-top: 7px;
+      margin-right: 10px;
+      width: 35px;
+      height: 35px;
+    }
+    .info{
+      position: relative;
+      top: 15px;
+
+      color: white;
+      p{
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+    }
+  }
+}

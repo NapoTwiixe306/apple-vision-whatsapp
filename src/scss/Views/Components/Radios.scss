@@ -4,8 +4,38 @@
   border-radius: 50px;
   background: rgba(178, 178, 178, 0.72);
   backdrop-filter: blur(50px);
-  border: 2px solid red;
+  //border: 2px solid red;
   position: absolute;
   top: 328px;
-  right: 350px;
+  left: 350px;
+
+  .ProfileInfos{
+    width: 281px;
+    height: 81px;
+    border-radius: 50px 50px 0 0;
+    background: rgba(178, 178, 178, 0.63);
+    .Pinfos{
+      padding: 15px;
+      display: flex;
+      margin: 15px;
+      img{
+        margin-top: -5px;
+        width: 50px;
+        height: 50px;
+
+      }
+      .Name{
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+      }
+    }
+  }
+  .OptionCard{
+    .Déco{
+      position: absolute;
+      bottom: 20px;
+    }
+  }
 }
