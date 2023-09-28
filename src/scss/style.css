@@ -456,6 +456,8 @@ li {
   .Radios .ProfileInfos {
     width: 281px;
     height: 81px;
+    position: relative;
+    top: -16px;
     border-radius: 50px 50px 0 0;
     background: rgba(178, 178, 178, 0.63); }
     .Radios .ProfileInfos .Pinfos {
@@ -471,6 +473,9 @@ li {
         color: white;
         font-weight: bold;
         font-size: 17px; }
+        .Radios .ProfileInfos .Pinfos .Name .in {
+          font-weight: initial;
+          font-size: 15px; }
   .Radios .OptionCard .Déco {
     position: absolute;
     bottom: 20px; }

@@ -19,7 +19,7 @@ const Radios = () => {
             <img src={Avatar} alt=""/>
             <div className="Name">
               <p>Priti Gulati</p>
-              <p>+91-8705001699</p>
+              <p className="in">Restez informé, avec nos différentes Radios</p>
             </div>
           </div>
         </div>
